@@ -1,0 +1,79 @@
+/* Common styles for the portfolio website */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    padding: 10px 15px;
+    justify-content: space-between;
+}
+
+nav span {
+    display: flex;
+    gap: 5px;
+}
+
+nav span h3 {
+    padding-top: 17px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 5px;
+    padding-top: 10px;
+}
+
+.nav-links>li>a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    padding: 80px 0px;
+    text-align: center;
+}
+
+@media all and (width<=470px) {
+    p {
+        font-size: 14px;
+    }
+
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav span {
+        padding-top: 5px;
+    }
+
+    .nav-links {
+        padding-top: 20px;
+    }
+
+    footer {
+        padding: 80px 55px;
+    }
+}
+
+@media all and (width<=266px) {
+    span img {
+        width: 30px;
+        height: 30px;
+    }
+
+    span h3 {
+        font-size: 16px;
+        position: relative;
+        bottom: 5px;
+    }
+
+    .nav-links li {
+        font-size: 13px;
+    }
+}
