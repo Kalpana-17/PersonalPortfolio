@@ -20,7 +20,7 @@ In this project, the HTML only website with multiple pages is styled using CSS. 
 
 ## ⚡ Deployment Instructions
 ### 1. Run Locally
-1. Clone the repository: bash: [gh repo clone Kalpana-17/PersonalPortfolio](gh repo clone Kalpana-17/PersonalPortfolio)
+1. Clone the repository by downloading the zip file https://github.com/Kalpana-17/PersonalPortfolio/archive/refs/heads/main.zip
 2. Open index.html in your browser.
 
 ### 2. Deploy on GitHub Pages (Recommended ✅)
