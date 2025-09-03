@@ -1,0 +1,36 @@
+main {
+    padding: 40px;
+}
+
+main h1 {
+    margin-bottom: 10px;
+}
+
+.projects-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.project {
+    line-height: 1.6;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1.5px solid grey;
+}
+
+@media all and (width<=275px) {
+    h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .project p{
+        font-size: 14px;
+    }
+}
