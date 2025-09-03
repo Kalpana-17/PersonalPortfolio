@@ -1,0 +1,127 @@
+main {
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.three-columns {
+    display: flex;
+    /* padding: 0px 0px; */
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.three-columns div>h3 {
+    margin: 10px 5px;
+}
+
+.projects {
+    flex: 1;
+    padding: 0;
+    border-right: 1.5px solid black;
+}
+
+.projects ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.projects ul li {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.experience {
+    flex: 1;
+    border-right: 1.5px solid black;
+}
+
+.experience ul {
+    list-style-type: none;
+}
+
+.experience ul li {
+    padding: 10px 15px;
+}
+
+.education {
+    flex: 1;
+    padding-bottom: 5px;
+}
+
+.education p {
+    padding: 0 10px;
+}
+
+.education ul {
+    padding-left: 25px;
+    font-size: 14px;
+}
+
+.reviews {
+    padding: 10px;
+}
+
+.review-container {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.review {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 10px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.review div {
+    margin-top: 5px;
+}
+
+@media all and (width<=470px) {
+    .three-columns {
+        flex-direction: column;
+    }
+    
+    .projects, .experience {
+        border-bottom: 1.5px solid black;
+    }
+
+    .review-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .review {
+        width: 70%;
+    }  
+}
+
+@media all and (width<=275px) {
+    h1, h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .projects li {
+        font-size: 14px;
+    }
+
+    .education li {
+        font-size: 12px;
+    }
+}
